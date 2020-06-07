@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2020 Juan David Melo <ontimond@gmail.com> -->
+<component type="desktop">
+  <id>com.github.ontimond.tipy</id>
+  <metadata_license>GPL-3.0</metadata_license>
+  <name>Tipy</name>
+  <summary>Application for test your typing skills 😤️</summary>
+  <description>
+    <p>Application for test your typing skills 😤️</p>
+  </description>
+  <custom>
+    <value key="x-appcenter-color-primary">#603461</value>
+    <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+    <value key="x-appcenter-suggested-price">5</value>
+  </custom>
+</component>

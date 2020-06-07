@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build vala application (Development)",
+            "type": "shell",
+            "command": "valac --pkg gtk+-3.0 -g --save-temps ./src/Application.vala",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Build vala application (Meson)",
+            "type": "shell",
+            "command": "meson build --prefix=/usr; ninja -C build install",
+            "group": "build"
+        }
+    ]
+}
